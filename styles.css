@@ -283,3 +283,10 @@ footer {
     gap: 1rem;
     margin-bottom: 3rem;
 }
+/* Student Info - enlarge only these 3 lines */
+.student-info p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 2;
+}
