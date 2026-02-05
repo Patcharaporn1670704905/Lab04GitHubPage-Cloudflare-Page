@@ -48,8 +48,13 @@ h1 {
     var(--accent-color),
     var(--secondary-accent)
   );
-  -webkit-background-clip: text;
+
+  background-clip: text;         /* เพิ่มบรรทัดนี้ */
+  -webkit-background-clip: text; /* ของเดิม */
+
+  color: transparent;            /* เพิ่มบรรทัดนี้ */
   -webkit-text-fill-color: transparent;
+
   margin-bottom: 1rem;
 }
 
